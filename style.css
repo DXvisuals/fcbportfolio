@@ -1,0 +1,74 @@
+/*
+SYNTAX:
+	selector{
+		property: value;
+	}
+
+selector;
+
+
+tag - tagName
+
+* - universal selector --> targets all elements (leat prioritized selector in case there is conflict with the codes)
+*/
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+
+h1, h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border: 5px solid;
+	border-radius: 100%;
+}
+
+#landing{
+	/* vh - viewport height */
+	height: 80vh;
+	/* display flex - allows us align the elements horizontally and vertically */
+	display: flex;
+	/* alings the flex item into colum/vertically */
+	flex-direction: column;
+	/* align flex items horizontally */
+	align-items: center;
+	/* aligns the flex items vertically */
+	justify-content: center;
+}
+
+#gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	border-radius: 6px;
+	color: #fff08d;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h2{
+	color: #007bff;
+}
+
+.tools{
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	/* % - depends on the width of the parent element */
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
